@@ -48,11 +48,9 @@ class ListFragment : Fragment(R.layout.fragment_list) {
 
     private fun showDetails(item: Int) {
         fragmentManager?.apply {
-            beginTransaction().replace(R.id.fragment_container, AnimalFragment().apply {
-                arguments = Bundle().apply {
-                    putInt("item", item)
-                }
-            }).addToBackStack("animal_fragment").commit()
+            beginTransaction()
+                .replace(R.id.fragment_container, AnimalFragment.newInstance(item))
+                .addToBackStack("animal_fragment").commit()
         }
     }
 }
