@@ -1,9 +1,26 @@
 # MacAndroidFarm
-This Project is to familiarize the concepts of Fragments and Lists in android.
-1. Choose your own themes using https://material.io/resources/color/
+This session is mainly about two things.
 
-Use of DataBinding
-buildFeatures {
+- Fragments and how to use them
+- Lists (Recyclerview)
+
+With this, We will discuss about couple of things more such as
+- View binding
+- Themes
+- Mediaplayer 
+
+### Dependencies 
+Android Meterial components for recyclerview
+```groovy
+implementation 'com.google.android.material:material:1.2.1'
+```
+Enable DataBinding in the app gradle.build file
+```groovy
+android {
+    ... 
+    
+    buildFeatures {
         viewBinding = true
     }
-
+}
+```
