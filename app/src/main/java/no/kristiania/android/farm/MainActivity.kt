@@ -4,8 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import no.kristiania.android.farm.databinding.ActivityMainBinding
-import no.kristiania.android.farm.details.ChickenFragment
-import no.kristiania.android.farm.details.SheepFragment
+import no.kristiania.android.farm.details.AnimalFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -17,12 +16,12 @@ class MainActivity : AppCompatActivity() {
         with(binding) {
             btnChicken.setOnClickListener {
                 supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, ChickenFragment())
+                    .replace(R.id.fragment_container, AnimalFragment.newInstance(R.drawable.chicken))
                     .commit()
             }
             btnSheep.setOnClickListener {
                 supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, SheepFragment())
+                    .replace(R.id.fragment_container, AnimalFragment.newInstance(R.drawable.sheep))
                     .commit()
             }
         }
