@@ -6,7 +6,7 @@ This session is mainly about two things.
 - Fragments and how to use them
 - Lists (Recyclerview)
 
-With this, We will discuss about couple of things more such as
+With this, We will discuss a couple of things more such as
 - View binding
 - Themes
 - Media player 
