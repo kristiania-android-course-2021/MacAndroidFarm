@@ -16,10 +16,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         with(binding) {
             btnChicken.setOnClickListener {
-                supportFragmentManager.beginTransaction().replace(R.id.fragment_container, ChickenFragment()).commit()
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, ChickenFragment())
+                    .commit()
             }
             btnSheep.setOnClickListener {
-                supportFragmentManager.beginTransaction().replace(R.id.fragment_container, SheepFragment()).commit()
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, SheepFragment())
+                    .commit()
             }
         }
     }
