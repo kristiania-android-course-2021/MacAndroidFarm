@@ -1,5 +1,3 @@
-![MacAndroidFarm](farm.gif?thumbnail)
-
 # MacAndroidFarm
 This session is mainly about two things.
 
@@ -26,3 +24,4 @@ android {
     }
 }
 ```
+![MacAndroidFarm](farm.gif)
