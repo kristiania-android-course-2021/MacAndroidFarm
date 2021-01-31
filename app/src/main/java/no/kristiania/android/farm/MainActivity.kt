@@ -19,11 +19,6 @@ class MainActivity : AppCompatActivity() {
                     .replace(R.id.fragment_container, AnimalFragment.newInstance(R.drawable.chicken))
                     .commit()
             }
-            btnSheep.setOnClickListener {
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, AnimalFragment.newInstance(R.drawable.sheep))
-                    .commit()
-            }
         }
     }
 }
