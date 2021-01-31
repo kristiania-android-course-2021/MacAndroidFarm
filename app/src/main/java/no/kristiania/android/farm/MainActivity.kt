@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import no.kristiania.android.farm.databinding.ActivityMainBinding
 import no.kristiania.android.farm.details.ChickenFragment
-import no.kristiania.android.farm.details.SheepFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -18,11 +17,6 @@ class MainActivity : AppCompatActivity() {
             btnChicken.setOnClickListener {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, ChickenFragment())
-                    .commit()
-            }
-            btnSheep.setOnClickListener {
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragment_container, SheepFragment())
                     .commit()
             }
         }
