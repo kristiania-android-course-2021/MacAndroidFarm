@@ -10,7 +10,28 @@ import no.kristiania.android.farm.details.AnimalFragment
 
 class ListFragment : Fragment(R.layout.fragment_list) {
 
-    private val animals = mutableListOf(R.drawable.chicken, R.drawable.cow, R.drawable.goat, R.drawable.sheep)
+    private val animals = mutableListOf(
+        R.drawable.chicken,
+        R.drawable.cow,
+        R.drawable.goat,
+        R.drawable.sheep,
+        R.drawable.chicken,
+        R.drawable.cow,
+        R.drawable.goat,
+        R.drawable.sheep,
+        R.drawable.chicken,
+        R.drawable.cow,
+        R.drawable.goat,
+        R.drawable.sheep,
+        R.drawable.chicken,
+        R.drawable.cow,
+        R.drawable.goat,
+        R.drawable.sheep,
+        R.drawable.chicken,
+        R.drawable.cow,
+        R.drawable.goat,
+        R.drawable.sheep
+    )
 
     lateinit var binding: FragmentListBinding
 
