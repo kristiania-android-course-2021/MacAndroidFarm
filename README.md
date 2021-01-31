@@ -1,4 +1,4 @@
-# MacAndroidFarm
+# Old MacAndroid had a farm
 This session is mainly about two things.
 
 - Fragments and how to use them
@@ -17,7 +17,6 @@ implementation 'com.google.android.material:material:1.2.1'
 Enable DataBinding in the app gradle.build file
 ```groovy
 android {
-    ... 
     
     buildFeatures {
         viewBinding = true
