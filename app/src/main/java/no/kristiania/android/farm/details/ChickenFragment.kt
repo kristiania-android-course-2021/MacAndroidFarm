@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import no.kristiania.android.farm.R
 import no.kristiania.android.farm.databinding.FragmentAnimalBinding
 
-class AnimalFragment : Fragment(R.layout.fragment_animal) {
+class ChickenFragment : Fragment(R.layout.fragment_animal) {
 
     private lateinit var binding: FragmentAnimalBinding
     var mPlayer: MediaPlayer? = null
