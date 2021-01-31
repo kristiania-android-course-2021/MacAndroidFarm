@@ -1,3 +1,5 @@
+![MacAndroidFarm](farm.gif?thumbnail)
+
 # MacAndroidFarm
 This session is mainly about two things.
 
@@ -7,7 +9,7 @@ This session is mainly about two things.
 With this, We will discuss about couple of things more such as
 - View binding
 - Themes
-- Mediaplayer 
+- Media player 
 
 ### Dependencies 
 Android Meterial components for recyclerview
