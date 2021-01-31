@@ -6,8 +6,10 @@ This session is mainly about two things.
 
 With this, We will discuss a couple of things more such as
 - View binding
-- Themes
+- Themes and shapes
 - Media player 
+
+You can use [Color Tool - Material Design](https://material.io/resources/color/) for deciding your own themes and colors.
 
 ### Dependencies 
 Android Meterial components for recyclerview
@@ -22,5 +24,6 @@ android {
         viewBinding = true
     }
 }
-```
+```    
+  
 ![MacAndroidFarm](farm.gif)
