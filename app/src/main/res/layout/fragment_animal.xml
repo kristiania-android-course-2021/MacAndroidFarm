@@ -2,15 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
     <ImageView
             android:background="@color/colorPrimary"
             android:scaleType="fitXY"
-            android:layout_margin="16dp"
             android:id="@+id/image_bigger"
-            android:src="@drawable/chicken"
+            tools:src="@drawable/chicken"
             android:padding="1dp"
             android:layout_width="300dp"
             android:layout_height="300dp"
@@ -21,7 +21,7 @@
 
     <TextView
             android:id="@+id/text_name_animal"
-            android:text="@string/chicken"
+            tools:text="@string/chicken"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@color/black"
